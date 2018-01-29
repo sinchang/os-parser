@@ -32,4 +32,4 @@ OSParser()
 **os-parser** © [sinchang](https://github.com/sinchang), Released under the [MIT](./LICENSE) License.<br>
 Authored and maintained by sinchang with help from contributors ([list](https://github.com/sinchang/os-parser/contributors)).
 
-> [sinchang.me](https://sinchang.me) · GitHub [@sinchang](https://github.com/sinchang) · Twitter [@y](https://twitter.com/y)
+> [sinchang.me](https://sinchang.me) · GitHub [@sinchang](https://github.com/sinchang) · Twitter [@sinchangwen](https://twitter.com/sinchangwen)
