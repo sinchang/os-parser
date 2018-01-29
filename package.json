@@ -1,6 +1,6 @@
 {
   "name": "os-parser",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "my tiptop project",
   "repository": {
     "url": "sinchang/os-parser",
@@ -20,8 +20,9 @@
     "build": "bili --filename index"
   },
   "author": "sinchang <sinchangwen@gmail.com>",
-  "license": "MIT",  "jest": {
-    "testEnvironment": "node"
+  "license": "MIT",
+  "jest": {
+    "testEnvironment": "jsdom"
   },
   "bili": {
     "banner": true,
