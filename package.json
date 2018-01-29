@@ -1,0 +1,61 @@
+{
+  "name": "os-parser",
+  "version": "0.0.1",
+  "description": "my tiptop project",
+  "repository": {
+    "url": "sinchang/os-parser",
+    "type": "git"
+  },
+  "main": "dist/index.common.js",
+
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test:cov": "jest --coverage && npm run lint",
+    "test": "npm run lint && jest",
+    "lint": "xo",
+    "lint:fix": "xo --fix",
+    "prepublishOnly": "npm run build",
+    "build": "bili --filename index"
+  },
+  "author": "sinchang <sinchangwen@gmail.com>",
+  "license": "MIT",  "jest": {
+    "testEnvironment": "node"
+  },
+  "bili": {
+    "banner": true,
+    "format": ["umd", "cjs"]
+  },
+  "babel": {
+    "env": {
+      "test": {
+        "presets": [
+          ["env", {
+            "targets": {
+              "node": "current"
+            }
+          }]
+        ]
+      }
+    }
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "jest-cli": "^19.0.0",
+    "eslint-config-rem": "^3.0.0",
+    "xo": "^0.18.0",
+    "babel-preset-env": "^1.4.0",
+    "bili": "^0.17.0"
+  },
+  "xo": {
+    "extends": "rem",
+    "envs": [
+      "jest",
+      "browser"
+    ],
+    "rules": {
+      "guard-for-in": 0
+    }
+  }
+}
