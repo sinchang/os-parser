@@ -1,7 +1,7 @@
 
 # os-parser
 
-[![NPM version](https://img.shields.io/npm/v/ua-os-parser.svg?style=flat)](https://npmjs.com/package/os-parser) [![NPM downloads](https://img.shields.io/npm/dm/os-parser.svg?style=flat)](https://npmjs.com/package/os-parser) [![CircleCI](https://circleci.com/gh/sinchang/os-parser/tree/master.svg?style=shield)](https://circleci.com/gh/sinchang/os-parser/tree/master)  [![codecov](https://codecov.io/gh/sinchang/os-parser/branch/master/graph/badge.svg)](https://codecov.io/gh/sinchang/os-parser)
+[![NPM version](https://img.shields.io/npm/v/os-parser.svg?style=flat)](https://npmjs.com/package/os-parser) [![NPM downloads](https://img.shields.io/npm/dm/os-parser.svg?style=flat)](https://npmjs.com/package/os-parser) [![CircleCI](https://circleci.com/gh/sinchang/os-parser/tree/master.svg?style=shield)](https://circleci.com/gh/sinchang/os-parser/tree/master)  [![codecov](https://codecov.io/gh/sinchang/os-parser/branch/master/graph/badge.svg)](https://codecov.io/gh/sinchang/os-parser)
 
 ## Install
 
